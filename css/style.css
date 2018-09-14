@@ -1,0 +1,48 @@
+*{
+	margin: 0px;
+	padding: 0px;
+}
+body{
+	
+	background-color: rgb(255,179,204);
+}
+a{
+	color: rgb(205,0,68);
+	text-decoration: none;
+}
+a:hover{
+	color: rgb(255,230,251);
+}
+#contener{
+	background-color: rgb(255,128,170);
+	width: 1004px;
+	margin: 0 auto;	
+	border-left: 3px solid rgb(255,51,119);
+	border-top: 3px solid rgb(255,51,119);
+	margin-top: 40px;
+}
+#top-part-contener{
+	position: relative;
+
+	width: 944px;
+	height: 150px;
+}
+img.logo{
+	border: 0;
+	position: absolute;
+	top: 0px;
+	left: 0px;
+}
+#contact-box{
+	position: absolute;
+	right: 40px;
+	top: 10px;
+	font-fammily: "Trebuchet MS", Helvetica, sans-serif;
+}
+/* MENU GORNE*/
+#top-menu{
+	
+}
+#main-top-menu{
+	
+}
