@@ -165,3 +165,78 @@ span.link{
 #first-level li .second-level li.first-item-menu{
 	margin-top: 5px;
 }
+/* KONTENT */
+#content{
+	width: 1004px;
+
+}
+#top-part-content{
+	width: 1004px;
+	height: 20px;
+	background-color: white;
+}
+#main-part-content{
+	width: 1004px;
+	background-color: white;
+}
+#bottom-part-content{
+	width: 1004px;
+	height: 30px;
+	background-color: rgb(255,128,170);
+	border-left: 3px solid rgb(255,51,119);
+    border-top: 3px solid rgb(255,51,119);
+}
+#text{
+	color: black;
+	text-align: justify;
+	padding: 10px 50px;
+	line-height: 140%;
+	font-size: 12px;
+	font-family: "Trebuchet MS", Helvetica, sans-serif;
+}
+h1{
+	font-size: 18px;
+	text-align: center;
+	color: 3px solid rgb(255,51,119);
+	margin-bottom: 22px;
+	font-family: Tahoma, Arial;
+
+}
+p{
+	margin-bottom: 15px;
+}
+#text ul{
+	margin: 20px;
+	margin-left: 110px;
+	list-style-image: url('../img/check2.png');
+	
+}
+#text li{
+	margin-bottom: 5px;
+}
+#content .information-box{
+	text-align: left;
+	float: right;
+	width: 150px;
+	margin: 10px 20px;
+	font-size: 10px;
+	font-family: Verdana;
+	border: 1px dotted gray;
+	padding: 20px 15px;
+	background-color: rgb(255,179,204);
+}
+#content #images{
+	float: right;
+	clear: right;
+}
+#content #images img{
+	float: right;
+	clear: right;
+	width: 250px;
+	height: auto;
+	margin-right: 30px;
+	margin-top: 30px;
+	cursor: pointer;
+	opacity: 0.6;
+	filter: alpha(opacity: 60);
+}
