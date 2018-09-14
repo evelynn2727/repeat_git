@@ -104,3 +104,64 @@ span.link{
 #second-menu li a:hover{
 	color: rgb(189,161,133);
 }
+/* MENU ROZWIJANE */
+#first-level li .second-level{
+	display: none;
+}
+#first-level li:hover .second-level{
+	display: block;
+	width: 210px;
+}
+#first-level li .second-level li{
+	width: 150px;
+	text-align: left;
+	
+}
+#first-level li{
+	position: relative;
+}
+#first-level li .second-level{
+	position: absolute;
+	top: 1.9em;
+	left: 0em;
+}
+#first-level > li {
+	height: 32px;
+}
+
+#first-level li .second-level{
+	    background-color: rgb(255,221,186);
+	    border-left: 3px solid rgb(255,51,119);
+	    border-bottom: 1px solid rgb(255,51,119);
+	    border-right: 1px solid rgb(255,51,119);
+	    opacity: 0.9;
+	    filter: alpha(opacity= 90);
+}
+#first-level li .second-level li{
+	margin-left: 30px;
+	border-top: 1px solid rgb(255,51,119);
+}
+
+#first-level li .second-level li a{
+	display: block;
+	width: 150px;
+	padding-bottom: 5px;
+	margin-bottom: 5px;
+}
+#first-level li .second-level li a:hover{
+	background-color: rgb(255,204,221);
+	padding-left: 20px;
+	margin-left: -20px;
+	padding-right: 20px;
+	margin-top: -1px;
+	border-top: 1px solid rgb(255,51,119);
+}
+#first-level li .second-level li a{
+	font-family: Verdana, Geneva, Arial, Helvetica, sans-serif;
+	font-size: 10px;
+	font-style: normal;
+	font-weight: bold;	
+}
+#first-level li .second-level li.first-item-menu{
+	margin-top: 5px;
+}
