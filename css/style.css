@@ -37,7 +37,7 @@ img.logo{
 	position: absolute;
 	right: 40px;
 	top: 10px;
-	font-fammily: "Trebuchet MS", Helvetica, sans-serif;
+	font-family: "Trebuchet MS", Helvetica, sans-serif;
 }
 /* MENU GORNE*/
 #top-menu{
@@ -69,4 +69,38 @@ img.logo{
 span.link{
 	display: inline-block;
 	margin-top: 5px;
+}
+/* SRODKOWE MENU */
+#second-menu{
+	color: rgb(255,102,153);
+	background-color: rgb(255,221,186);
+	width: 1005px;
+	height: 32px;
+}
+#second-menu li{
+	list-style-type: none;
+	float: left;
+}
+
+#second-menu li a{
+	color: rgb(255,102,153);
+	font-size: 13px;
+	font-family: "Trebuchet MS", Helvetica, sans-serif;
+	font-weight: bold;
+	font-style: italic;
+}
+#second-menu li span.link2{
+	display: block;
+	margin-top: 7px;
+}
+#second-menu #first-level{
+	margin-left: 70px;
+}
+#second-menu span.break-space{
+	display: inline-block;
+	margin: 5px 10px 0 10px;
+	color: rgb(255,102,153);
+}
+#second-menu li a:hover{
+	color: rgb(189,161,133);
 }
