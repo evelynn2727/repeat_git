@@ -179,13 +179,7 @@ span.link{
 	width: 1004px;
 	background-color: white;
 }
-#bottom-part-content{
-	width: 1004px;
-	height: 30px;
-	background-color: rgb(255,128,170);
-	border-left: 3px solid rgb(255,51,119);
-    border-top: 3px solid rgb(255,51,119);
-}
+
 #text{
 	color: black;
 	text-align: justify;
@@ -239,4 +233,77 @@ p{
 	cursor: pointer;
 	opacity: 0.6;
 	filter: alpha(opacity: 60);
+}
+/* DOLNA CZESC STRONY */
+#bottom-part-content{
+	width: 1004px;
+	height: 100;
+	background-color: rgb(255,128,170);
+	border-left: 3px solid rgb(255,51,119);
+    border-top: 3px solid rgb(255,51,119);
+    margin-bottom: 10px;
+}
+#bottom-part-content img{
+	width: 50px;
+	height: auto;
+}
+#newsletter{
+	float: left;
+	margin-left: 30px;
+	padding-top: 20px; 
+	padding-right: 30px;
+}
+#newsletter-text{
+	color: white;
+	text-align: left;
+	padding-top: 35px;
+}
+#newsletter-header{
+	font-size: 15px;
+	font-family: "Comic Sans MS";
+	font-weight: bold;
+}
+.input-text{
+	background-color: gray;
+	font-size: 12px;
+	padding: 5px;
+	margin-left: 10px;
+	width: 350px;
+}
+.submit-button{
+	padding: 12px;
+	font-size: 10px;
+	font-family: Verdana;
+	font-weight: bold;
+	cursor: pointer;
+	border: 2px outset gray;
+	
+}
+#form-newsletter{
+	margin-top: 10px;
+	font-size: 12px;
+}
+.submit-button:active{
+	border: 2px inset gray;
+}
+.submit-button:hover{
+	color: rgb(255,51,119);
+}
+#newsletter-info{
+	font-size: 10px;
+	font-family: Verdana;
+	margin-left: 25px;
+	margin: 0 auto;	
+	padding: 20px;
+}
+#copyright{
+    text-align: center;
+    margin-bottom: 20px;
+    font-size: 10px;
+    font-family: Verdana;
+}
+footer{
+	width: 1004px;
+	margin: 0 auto;	
+
 }
