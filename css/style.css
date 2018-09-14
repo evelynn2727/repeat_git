@@ -41,8 +41,32 @@ img.logo{
 }
 /* MENU GORNE*/
 #top-menu{
-	
+	position: absolute;
+	left: 30px;
+	bottom: 0px;
 }
-#main-top-menu{
-	
+#main-top-menu li{
+	list-style-type: none;
+	float: left;
+	border-top: 1px solid rgb(255,51,119);
+}
+#main-top-menu li a{
+	display: inline-block;
+	float: left;
+	height: 30px;
+	background-color: rgb(255,102,153);
+	padding: 10px 15px 0 15px;
+	font-family: Verdana, Geneva, Arial, Helvetica, sans-serif;
+	font-size: 12px;
+	font-weight: bold;
+	color: rgb(255,221,186);
+
+}
+#main-top-menu li a:hover, #main-top-menu li.actual a{
+	color: rgb(255,102,153);
+	background-color: rgb(255,221,186);
+}
+span.link{
+	display: inline-block;
+	margin-top: 5px;
 }
